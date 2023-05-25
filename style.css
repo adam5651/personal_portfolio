@@ -1,0 +1,197 @@
+body{
+  background-color: #F87060;
+  font-family: sans-serif;
+  color: white;
+  font-size: 25px;
+  max-width: 70%;
+  margin: auto;
+}
+
+#header{
+
+  margin-top: 1.5rem;
+  border-radius: 3rem;
+  display: flex;
+  background-color:#102542;
+  justify-content: space-evenly;
+  align-items:center;
+  box-shadow: 20px 20px 20px #0a1729;
+}
+#header h2{
+  
+  color: rgb(57, 160, 201);
+}
+.navigat{
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  
+}
+.navigat li{
+  margin: 2rem;
+  text-decoration: none;
+  
+}
+.navigat li a{
+  font-size: 1.5rem;
+  color: rgb(57, 160, 201);
+}
+.navigat li a:link{
+  text-decoration: none;
+}
+.navigat li a:hover{
+  color:darkblue;
+}
+
+.social_media li img {
+  height: 90px;
+  list-style-type: none;
+}
+.social_media li  {
+  margin-right: 30px;
+  list-style-type: none;
+}
+.about_me{
+  height: auto;
+  background-color: #CDD7D6;
+  color: #102542;
+  width: 66%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px #102542;
+  margin-right: 2rem;
+}
+.about_me h1{
+  padding-top: 10px;
+  text-align: center;
+}
+.about_me p {
+  text-align: justify;
+  padding: 20px;
+  
+  line-height: 30px;
+  
+}
+.about_me img{
+padding-bottom: 2rem;
+}
+.about_me_skills {
+ text-align: center;
+}
+.flex_content{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.information_about_me{
+  color: #102542;
+  background-color: #CDD7D6;
+  height: 10%;
+  
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px #102542;
+  text-align: center;
+    
+}
+.information_about_me img{
+  height: 19rem;
+  border-radius: 50%;
+  border:#102542 5px solid;
+}
+.information_about_me li{
+  list-style-type: none;
+  text-align: left;
+  
+  font-weight: bold;
+  margin: 1rem;
+  
+}
+
+.portfolio_flex{
+display: flex;
+flex-wrap: wrap;
+
+align-items:center;
+padding: 1rem;
+
+}
+.my_other_interest img{
+  width: 12rem;
+  border-radius: 30%;
+  
+}
+.Projects{
+  color:#102542 ;
+  text-align: center;
+  margin-top: 2rem;
+  background-color:#CDD7D6 ;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px #102542;
+}
+.Projects h1{
+ padding-bottom: 2rem;
+  border-bottom: 0.5rem #102542 double  ;
+}
+.rewiews img{
+max-height:18rem;
+border:0.5rem #102542 solid ;
+border-radius:5% ;
+}
+.code_web{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.border_Ourmenu{
+  border:0.5rem rgb(187, 143, 61)
+}
+.other_interest{
+  margin-top: 2rem ;
+  background-color:#CDD7D6 ;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 20px 20px 20px #102542;
+}
+.other_interest h1{
+  color:#102542 ;
+  text-align: center;
+}
+.other_interest_flex{
+  display: flex;
+  justify-content: center;
+  color:#102542 ;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+
+  
+  
+}
+.other_interest_flex img{
+  height: 12rem;
+}
+.other_interest_flex h3 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 750px){
+  .about_me{
+    height: auto;
+    margin:0;
+  }
+  
+  .information_about_me img{
+    height: 15rem;
+  }
+  body{
+    font-size: 15px;
+  }
+ 
+  .rewiews img{
+    max-height:12rem;
+  }
+}
